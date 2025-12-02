@@ -10,7 +10,7 @@ import TypingText from "@/components/ui/shadcn-io/typing-text";
 const Hero05 = () => {
   return (
     <div className="min-h-screen flex items-center justify-center overflow-hidden">
-      <div className="max-w-(--breakpoint-xl) w-full mx-auto grid lg:grid-cols-2 gap-12 px-6 py-12 lg:py-0">
+      <div className="max-w-(--breakpoint-xl) w-full mx-auto pt-20 flex lg:flex-row flex-col-reverse gap-12 px-6 py-12 lg:py-0">
         <div className="my-auto">
           {/* <Badge
             variant="secondary"
@@ -62,12 +62,11 @@ const Hero05 = () => {
                     />
                   </div> */}
         </div>
-        <div className="w-full aspect-video lg:aspect-auto lg:w-[800px] lg:h-screen bg-[var(--nav-color)] rounded-xl lg:rounded-none">
-
+        <div className="w-full lg:aspect-auto lg:w-[800px] lg:h-screen bg-[var(--nav-color)] rounded-xl lg:rounded-none">
           <img 
-            src="images/kingmodel.png" 
+            src="images/unicorn.webp" 
             alt="king model image" 
-            className="w-full h-full object-cover rounded-xl lg:rounded-none"
+            className="w-full h-full object-contain rounded-xl lg:rounded-none"
           />
         </div>
       </div>

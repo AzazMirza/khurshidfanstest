@@ -64,7 +64,7 @@ export default function FAQ() {
                 <AccordionItem
                   key={question}
                   value={`question-${index}`}
-                  className="bg-[var(--nav-color)]/80 py-1 px-4 rounded-xl border border-white "
+                  className="bg-[var(--nav-color)] py-1 px-4 rounded-xl border border-white "
                 >
                   <AccordionPrimitive.Header className="flex">
                     <AccordionPrimitive.Trigger

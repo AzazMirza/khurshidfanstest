@@ -12,7 +12,7 @@ import { BubbleBackground } from "./ui/bubble-background/bubble-background";
 
 const Contact02Page = () => (
   // <BubbleBackground interactive>
-    <section id="contact" className="relative z-10 min-h-screen flex items-center justify-center py-16 {/*bg-[var(--nav-color)]/10*/}">
+    <section id="contact" className="relative z-10 min-h-screen flex items-center justify-center py-16 bg-[var(--nav-color)]">
       <div className="w-full  max-w-[var(--breakpoint-xl)] mx-auto px-6 xl:px-0">
         {/* <b className="text-black uppercase font-semibold text-sm">Contact Us</b> */}
         <h2 className="mt-3 text-3xl justify-center text-center md:text-4xl xs:text-3xl font-bold tracking-tight text-black">
@@ -62,7 +62,7 @@ const Contact02Page = () => (
               <div
                 key={index}
                 className="p-6 
-                  bg-[var(--nav-color)]/60 dark:bg-black/20 
+                  bg-[var(--nav-color)] dark:bg-black/20 
                   border border-white dark:border-white/10 
                   rounded-2xl 
                   backdrop-blur-lg 
@@ -138,7 +138,7 @@ const Contact02Page = () => (
                     </Label>
                   </div>
                 </div>
-                <Button className="mt-6 w-full bg-[var(--nav-color)]/90 hover:bg-[var(--nav-color)]/100 active:scale-[0.98] transition-transform duration-200" size="lg">
+                <Button className="mt-6 w-full bg-[var(--nav-color)] hover:bg-[var(--nav-color)]/100 active:scale-[0.98] transition-transform duration-200" size="lg">
                   Submit
                 </Button>
               </form>

@@ -25,7 +25,7 @@ const Navbar04Page = () => {
           transition-all duration-500 ease-in-out z-50
           
           ${scrolled
-            ? "h-16 max-w-[900px] bg-[var(--nav-color)]/80 border-white/30 shadow-xl backdrop-blur-md"
+            ? "h-16 max-w-[900px] bg-[var(--nav-color)]/65 border-white/30 shadow-xl backdrop-blur-md"
             : "h-13 max-w-[var(--breakpoint-xl)] bg-[var(--nav-color)] border-transparent shadow-none backdrop-blur-0"
           }`}
       >
@@ -44,7 +44,7 @@ const Navbar04Page = () => {
             </Button>
             </Link>
             <Link href="/signup">
-            <Button variant="cta" className=" rounded-full cursor-pointer">
+            <Button  className=" rounded-full cursor-pointer">
               Sign Up
             </Button>
             </Link>
